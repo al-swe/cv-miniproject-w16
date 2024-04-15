@@ -5,6 +5,7 @@ const myAddress = document.getElementById("myAddress");
 const myNumber = document.getElementById("myNumber");
 const myEmail = document.getElementById("myEmail");
 
+// Async function that fetches data then populates above DOM elements
 async function fetchData() {
   const response = await fetch("https://randomuser.me/api/?gender=male");
   const responseJson = await response.json();

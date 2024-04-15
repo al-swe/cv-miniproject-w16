@@ -1,13 +1,14 @@
+/* Root styling for reusable colors */
 :root {
   --green: #7bc393;
   --blue: #31b7c2;
-  font-family: "Poppins", sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -138,6 +139,7 @@ img {
   border-left: 1px var(--blue) dashed;
 }
 
+/* Breakpoint at 1250px */
 @media only screen and (max-width: 1250px) {
     .wrapper {
         flex-direction: column;
@@ -157,6 +159,7 @@ img {
     }
 }
 
+/* Breakpoint at 768px */
 @media only screen and (max-width: 768px) {
     .header {
         flex-direction: column;
